@@ -114,3 +114,6 @@ docs/_build/
 # 3D Images
 *.3dm
 *.max
+
+# Virtual Enviroment
+*.venv/
