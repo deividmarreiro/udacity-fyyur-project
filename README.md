@@ -1,4 +1,4 @@
-Fyyur
+🎵🎵 Fyyur 🎵🎵 
 -----
 
 ## Introduction
@@ -17,15 +17,52 @@ This app is nearly complete. It is only missing one thing… real data! While th
 
 We want Fyyur to be the next new platform that artists and musical venues can use to find each other, and discover new music shows. Let's make that happen!
 
-## Tech Stack (Dependencies)
+## ToDo List 🐈‍⬛
+  - [ ] Start configuration and server up
+    - [ ] Clone the project
+    - [ ] Create a virtual enviroment **(Important note python version must be 3.9 or lower)**
+    - [ ] Create the database
+    - [ ] Set the database connection
+    - [ ] Start the Server
+  - [ ] Start draw the Use cases
+    - [ ] Add the needed fields on the models
+    - [ ] Create the Show Model
+    - [ ] Create the relationship Show between Venue and Artists
+    - [ ] Create the migrations and migrate the tables
+  - [ ] Start coding the CRUD to venues
+    - [ ] Create Venue
+    - [ ] Retrieve List of Venues
+    - [ ] Retrieve Venue
+    - [ ] Update Venue
+    - [ ] Delete Venue
+    - [ ] Search Venue by name
+    - [ ] Create the logic to count the past_shows and upcoming shows
+  - [ ] Start coding the CRUD to artists
+    - [ ] Create Artist
+    - [ ] Retrieve List of Artist
+    - [ ] Retrieve Artist
+    - [ ] Update Artist
+    - [ ] Delete Artist
+    - [ ] Search Artist by name
+    - [ ] Create the logic to count the past_shows and upcoming shows
+  - [ ] Start coding the CRUD to shows
+    - [ ] Create Shows
+    - [ ] Retrieve List of Shows
+    - [ ] Retrieve Shows
+    - [ ] Update Shows
+    - [ ] Delete Shows
+    - [ ] Search Shows by name
+  
+## ⚙️ Tech Stack (Dependencies) ⚙️
 
 ### 1. Backend Dependencies
 Our tech stack will include the following:
- * **virtualenv** as a tool to create isolated Python environments
- * **SQLAlchemy ORM** to be our ORM library of choice
- * **PostgreSQL** as our database of choice
- * **Python3** and **Flask** as our server language and server framework
- * **Flask-Migrate** for creating and running schema migrations
+ * 💻 **virtualenv** as a tool to create isolated Python environments
+ * 💾 **SQLAlchemy ORM** to be our ORM library of choice
+ * 🐘 **PostgreSQL** as our database of choice
+ * 🐍 **Python3**
+ * 🧪 **Flask** as our server language and server framework
+ * 🧳 **Flask-Migrate** for creating and running schema migrations
 You can download and install the dependencies mentioned above using `pip` as:
 ```
 pip install virtualenv
@@ -178,12 +215,5 @@ export FLASK_ENV=development # enables debug mode
 python3 app.py
 ```
 
-6. **Verify on the Browser**<br>
+6. 💻💻 **Verify on the Browser** 💻💻<br>
 Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or [http://localhost:5000](http://localhost:5000) 
-
-## Troubleshooting:
-- If you encounter any dependency errors, please ensure that you are using Python 3.9 or lower.
-- If you are still facing the dependency errors, follow the given commands:
-  - `using pip install --upgrade flask-moment`
-  - `Using pip install Werkzeug==2.0.0`
-  - `Using pip uninstall Flask and then pip install flask==2.0.3`
