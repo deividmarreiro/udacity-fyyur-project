@@ -18,15 +18,15 @@ This app is nearly complete. It is only missing one thing… real data! While th
 We want Fyyur to be the next new platform that artists and musical venues can use to find each other, and discover new music shows. Let's make that happen!
 
 ## ToDo List 🐈‍⬛
-  - [ ] Start configuration and server up
+  - [x] Start configuration and server up
     - [x] Clone the project
     - [x] Create a virtual enviroment **(Important note python version must be 3.9 or lower)**
     - [x] Create the database
     - [x] Set the database connection
     - [x] Start the Server
-    - [ ] Create a pre-commit config yaml
-    - [ ] Config the hooks
-    - [ ] Create a Makefile to be easy to run the configuration commands
+    - [x] Create a pre-commit config yaml
+    - [x] Config the hooks
+    - [x] Create a Makefile to be easy to run the configuration commands
   - [ ] Start draw the Use cases
     - [ ] Add the needed fields on the models
     - [ ] Create the Show Model
