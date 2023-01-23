@@ -1,4 +1,4 @@
-🎵🎵 Fyyur 🎵🎵 
+🎵🎵 Fyyur 🎵🎵
 -----
 
 ## Introduction
@@ -19,11 +19,14 @@ We want Fyyur to be the next new platform that artists and musical venues can us
 
 ## ToDo List 🐈‍⬛
   - [ ] Start configuration and server up
-    - [ ] Clone the project
-    - [ ] Create a virtual enviroment **(Important note python version must be 3.9 or lower)**
-    - [ ] Create the database
-    - [ ] Set the database connection
-    - [ ] Start the Server
+    - [x] Clone the project
+    - [x] Create a virtual enviroment **(Important note python version must be 3.9 or lower)**
+    - [x] Create the database
+    - [x] Set the database connection
+    - [x] Start the Server
+    - [ ] Create a pre-commit config yaml
+    - [ ] Config the hooks
+    - [ ] Create a Makefile to be easy to run the configuration commands
   - [ ] Start draw the Use cases
     - [ ] Add the needed fields on the models
     - [ ] Create the Show Model
@@ -52,7 +55,7 @@ We want Fyyur to be the next new platform that artists and musical venues can us
     - [ ] Update Shows
     - [ ] Delete Shows
     - [ ] Search Shows by name
-  
+
 ## ⚙️ Tech Stack (Dependencies) ⚙️
 
 ### 1. Backend Dependencies
@@ -71,7 +74,7 @@ pip install postgres
 pip install Flask
 pip install Flask-Migrate
 ```
-> **Note** - If we do not mention the specific version of a package, then the default latest stable package will be installed. 
+> **Note** - If we do not mention the specific version of a package, then the default latest stable package will be installed.
 
 ### 2. Frontend Dependencies
 You must have the **HTML**, **CSS**, and **Javascript** with [Bootstrap 3](https://getbootstrap.com/docs/3.4/customize/) for our website's frontend. Bootstrap can only be installed by Node Package Manager (NPM). Therefore, if not already, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the computer after installation. After successfully installing the Node, verify the installation as shown below.
@@ -97,7 +100,7 @@ npm install bootstrap@3
   ├── forms.py *** Your forms
   ├── requirements.txt *** The dependencies we need to install with "pip3 install -r requirements.txt"
   ├── static
-  │   ├── css 
+  │   ├── css
   │   ├── font
   │   ├── ico
   │   ├── img
@@ -176,19 +179,19 @@ Best of luck in your final project! Fyyur depends on you!
 1. **Download the project starter code locally**
 ```
 git clone https://github.com/udacity/FSND.git
-cd FSND/projects/01_fyyur/starter_code 
+cd FSND/projects/01_fyyur/starter_code
 ```
 
 2. **Create an empty repository in your Github account online. To change the remote repository path in your local repository, use the commands below:**
 ```
-git remote -v 
-git remote remove origin 
+git remote -v
+git remote remove origin
 git remote add origin <https://github.com/<USERNAME>/<REPO_NAME>.git>
 git branch -M master
 ```
 Once you have finished editing your code, you can push the local repository to your Github account using the following commands.
 ```
-git add . --all   
+git add . --all
 git commit -m "your comment"
 git push -u origin master
 ```
@@ -216,4 +219,4 @@ python3 app.py
 ```
 
 6. 💻💻 **Verify on the Browser** 💻💻<br>
-Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or [http://localhost:5000](http://localhost:5000) 
+Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or [http://localhost:5000](http://localhost:5000)
