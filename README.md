@@ -27,11 +27,11 @@ We want Fyyur to be the next new platform that artists and musical venues can us
     - [x] Create a pre-commit config yaml
     - [x] Config the hooks
     - [x] Create a Makefile to be easy to run the configuration commands
-  - [ ] Start draw the Use cases
-    - [ ] Add the needed fields on the models
-    - [ ] Create the Show Model
-    - [ ] Create the relationship Show between Venue and Artists
-    - [ ] Create the migrations and migrate the tables
+  - [x] Start draw the Use cases
+    - [x] Add the needed fields on the models
+    - [x] Create the Show Model
+    - [x] Create the relationship Show between Venue and Artists
+    - [x] Create the migrations and migrate the tables
   - [ ] Start coding the CRUD to venues
     - [ ] Create Venue
     - [ ] Retrieve List of Venues
