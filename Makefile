@@ -9,3 +9,6 @@ run:
 
 lint:
 	pre-commit install && pre-commit run -a -v
+
+install-requirements:
+	pip install -r requirements.txt
