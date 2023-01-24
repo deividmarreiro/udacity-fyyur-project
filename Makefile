@@ -12,3 +12,12 @@ lint:
 
 install-requirements:
 	pip install -r requirements.txt
+
+db-init:
+	flask db init
+
+db-migrate:
+	flask db migrate
+
+db-upgrade:
+	flask db upgrade
