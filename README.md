@@ -33,13 +33,13 @@ We want Fyyur to be the next new platform that artists and musical venues can us
     - [x] Create the relationship Show between Venue and Artists
     - [x] Create the migrations and migrate the tables
   - [ ] Start coding the CRUD to venues
-    - [ ] Create Venue
-    - [ ] Retrieve List of Venues
-    - [ ] Retrieve Venue
-    - [ ] Update Venue
-    - [ ] Delete Venue
-    - [ ] Search Venue by name
-    - [ ] Create the logic to count the past_shows and upcoming shows
+    - [x] Create Venue
+    - [x] Retrieve List of Venues
+    - [x] Retrieve Venue
+    - [x] Update Venue
+    - [x] Delete Venue
+    - [x] Search Venue by name
+    - [ ] Create the logic to count the past_shows and upcoming shows **(Depends on Shows CRUD)**
   - [ ] Start coding the CRUD to artists
     - [ ] Create Artist
     - [ ] Retrieve List of Artist

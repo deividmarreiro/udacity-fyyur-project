@@ -21,3 +21,6 @@ db-migrate:
 
 db-upgrade:
 	flask db upgrade
+
+db-downgrade:
+	flask db downgrade

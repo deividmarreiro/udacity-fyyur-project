@@ -76,5 +76,28 @@
 </section>
 
 <a href="/venues/{{ venue.id }}/edit"><button class="btn btn-primary btn-lg">Edit</button></a>
+<button type="button" class="btn btn-primary btn-lg" id="delete-btn" data-id="{{ venue.id }}">Delete</button>
 
+
+<script>
+	const deleteBtn = document.getElementById('delete-btn');
+	deleteBtn.addEventListener('click', function() {
+	const venueId = this.getAttribute('data-id')
+	console.log(venueId)
+	fetch(`/venues/${venueId}`, {
+		method: 'DELETE'
+	})
+	.then(response => {
+		if (response.ok) {
+			window.location.href = "/"
+		}
+		else {
+			throw new Error("Something went wrong ...")
+		}
+	})
+	.catch((error) => {
+		console.error('Error:', error);
+	});
+	});
+</script>
 {% endblock %}
