@@ -39,22 +39,19 @@ We want Fyyur to be the next new platform that artists and musical venues can us
     - [x] Update Venue
     - [x] Delete Venue
     - [x] Search Venue by name
-    - [ ] Create the logic to count the past_shows and upcoming shows **(Depends on Shows CRUD)**
-  - [ ] Start coding the CRUD to artists
-    - [ ] Create Artist
-    - [ ] Retrieve List of Artist
-    - [ ] Retrieve Artist
-    - [ ] Update Artist
-    - [ ] Delete Artist
-    - [ ] Search Artist by name
-    - [ ] Create the logic to count the past_shows and upcoming shows
-  - [ ] Start coding the CRUD to shows
-    - [ ] Create Shows
-    - [ ] Retrieve List of Shows
-    - [ ] Retrieve Shows
-    - [ ] Update Shows
-    - [ ] Delete Shows
-    - [ ] Search Shows by name
+    - [x] Create the logic to count the past_shows and upcoming shows **(Depends on Shows CRUD)**
+  - [x] Start coding the CRUD to artists
+    - [x] Create Artist
+    - [x] Retrieve List of Artist
+    - [x] Retrieve Artist
+    - [x] Update Artist
+    - [x] Delete Artist
+    - [x] Search Artist by name
+    - [x] Create the logic to count the past_shows and upcoming shows
+  - [x] Start coding the CRUD to shows
+    - [x] Create Shows
+    - [x] Retrieve List of Shows
+    - [x] Retrieve Shows
 
 ## ⚙️ Tech Stack (Dependencies) ⚙️
 
