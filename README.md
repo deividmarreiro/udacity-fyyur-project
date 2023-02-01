@@ -32,7 +32,7 @@ We want Fyyur to be the next new platform that artists and musical venues can us
     - [x] Create the Show Model
     - [x] Create the relationship Show between Venue and Artists
     - [x] Create the migrations and migrate the tables
-  - [ ] Start coding the CRUD to venues
+  - [x] Start coding the CRUD to venues
     - [x] Create Venue
     - [x] Retrieve List of Venues
     - [x] Retrieve Venue
